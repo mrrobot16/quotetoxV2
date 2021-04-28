@@ -1,4 +1,4 @@
-import { get } from "services/http"
+// import { get } from "services/http"
 
 export const defaultQuote = "A lion does not concern himself with the opinion's of the sheep.";
 
