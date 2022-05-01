@@ -10,6 +10,7 @@ import { calculateDays } from "services/detox";
 
 function Dotox() {
   const pushupsDate = "2021-01-20";
+  const medidateDate = "2022-05-09"
   
   const componentDidMount = () => {
     // getDotoxes();
@@ -28,6 +29,12 @@ function Dotox() {
         <Typography variant="subtitle2">
           { calculateDays(pushupsDate) }
         </Typography>
+        
+        {/*
+        <Typography variant="subtitle2">
+          { calculateDays(pushupsDate) }
+        </Typography> 
+        */}
       </Box>
     </Box>
   );
